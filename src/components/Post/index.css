@@ -1,0 +1,103 @@
+
+.post{
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+figure {
+    margin: 0;
+    padding: 15px
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}
+
+#reaction-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#reaction-section svg {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#comment-section {
+    padding-top: 10px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment header {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: flex-start;
+}
+
+.comment header img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.comment header a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.comment p {
+    margin: 0;
+    padding: 0 16px;
+    color: #555555;
+}

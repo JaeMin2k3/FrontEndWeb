@@ -1,0 +1,48 @@
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background-color: rgb(119, 119, 235);
+  height: fit-content;
+  padding: 10px 0;
+}
+
+#left-nav{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#left-nav input {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px transparent;
+  border-radius: 20px;
+}
+
+#left-nav img {
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+#right-nav{
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+#right-nav svg {
+  margin-top: 10px;
+}
+
+#right-nav button {
+  background-color: transparent;
+  width: fit-content;
+  font-weight: bold
+}

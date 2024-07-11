@@ -1,0 +1,32 @@
+#search-page{
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.search-result {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+}
+
+.search-result img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.search-result a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.search-result a:visited {
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+#new-post-page{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-post-section {
+    background-color: white;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#new-post-section input[type="text"]{
+    width: 100%;
+    border: solid 1px transparent;
+    box-sizing:border-box;
+}
+
+#new-post-section input[type="file"]{
+    display: none;
+}
+
+#new-post-section label {
+    width: 100%;
+    background-color: darkblue;
+    text-align:center;
+    margin: 0;
+    border-radius: 5px;
+    color: white;
+    line-height: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#new-post-section footer {
+    display: flex;
+    gap: 10px;
+
+}
+
+#new-post-section figure{
+    border: dashed 1.5px lightgray;
+    border-radius: 10px;
+    margin: 20px;
+    min-height: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#new-post-section figure img {
+    width: 192px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+}

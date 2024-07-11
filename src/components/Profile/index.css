@@ -1,0 +1,36 @@
+#profile-page{
+    margin-top: 70px;
+}
+
+#user-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+#user-section img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+#user-section a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+}
+
+#user-section a:visited {
+    text-decoration: none;
+}
+
+#post-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
